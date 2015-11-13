@@ -31,3 +31,9 @@ lsi: true
 gems:
     - jekyll-redirect-from
     - jemoji
+    - jekyll-mentions
+    - jekyll-sitemap
+
+jekyll-mentions:
+    base_url: https://twitter.com
+    
