@@ -1,0 +1,1 @@
+I can see "404 error". I just makes directory "bin" on repository of github. I don't know what happen under this water and never think about that directory. temporary solution is just that removal of bin directory and my shell script should move to another directory. 

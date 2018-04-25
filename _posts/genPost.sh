@@ -8,9 +8,10 @@ filetype="md"
 
 # check the title of this post   
 if [ ! -z $1 ];then 
-	title="$1"
+	title="${@: 1}" # get parameter from $1 to the last
 	filename="$current_date-$title.$filetype"
-	vi $filename
+	echo "ready to edit $filename";sleep 1
+	vi "$filename"
 	
 else
 	echo "usage: $0 TITLE"
