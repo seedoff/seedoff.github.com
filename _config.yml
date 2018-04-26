@@ -22,7 +22,7 @@ github_username:  seedoff
 
 # Build settings
 markdown: kramdown
-highlighter:rouge 
+highlighter: rouge 
 permalink: pretty
 
 safe: true
